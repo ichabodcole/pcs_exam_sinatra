@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+  <title>My Sinatra Site</title>
+  <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.css">
+  <script src="/assets/javascripts/jquery.min.js"></script>
+</head>
+<body>
+  <div id="container">
+    <div class="hero-unit">
+      <h1>Hello World!</h1>
+      <form action="/entries/1" method="post">
+        <input type="hidden" name="_method" value="put">
+        <input type="submit">
+      </form>
+    </div>
+  </div>
+</body>
+</html>
